@@ -16,6 +16,8 @@
 		8CC1A6DA281B64CF00A063A8 /* CalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1A6D9281B64CF00A063A8 /* CalTests.swift */; };
 		8CC1A6E4281B64CF00A063A8 /* CalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1A6E3281B64CF00A063A8 /* CalUITests.swift */; };
 		8CC1A6E6281B64CF00A063A8 /* CalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1A6E5281B64CF00A063A8 /* CalUITestsLaunchTests.swift */; };
+		8CC1A6F3281B6B1000A063A8 /* CalnderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1A6F2281B6B1000A063A8 /* CalnderCell.swift */; };
+		8CC1A6F5281B716400A063A8 /* CalenderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1A6F4281B716400A063A8 /* CalenderHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8CC1A6DF281B64CF00A063A8 /* CalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC1A6E3281B64CF00A063A8 /* CalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalUITests.swift; sourceTree = "<group>"; };
 		8CC1A6E5281B64CF00A063A8 /* CalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CC1A6F2281B6B1000A063A8 /* CalnderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalnderCell.swift; sourceTree = "<group>"; };
+		8CC1A6F4281B716400A063A8 /* CalenderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				8CC1A6C4281B64CA00A063A8 /* SceneDelegate.swift */,
 				8CC1A6C6281B64CA00A063A8 /* ViewController.swift */,
 				8CC1A6C8281B64CA00A063A8 /* Main.storyboard */,
+				8CC1A6F4281B716400A063A8 /* CalenderHelper.swift */,
+				8CC1A6F2281B6B1000A063A8 /* CalnderCell.swift */,
 				8CC1A6CB281B64CF00A063A8 /* Assets.xcassets */,
 				8CC1A6CD281B64CF00A063A8 /* LaunchScreen.storyboard */,
 				8CC1A6D0281B64CF00A063A8 /* Info.plist */,
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CC1A6C7281B64CA00A063A8 /* ViewController.swift in Sources */,
+				8CC1A6F3281B6B1000A063A8 /* CalnderCell.swift in Sources */,
 				8CC1A6C3281B64CA00A063A8 /* AppDelegate.swift in Sources */,
 				8CC1A6C5281B64CA00A063A8 /* SceneDelegate.swift in Sources */,
+				8CC1A6F5281B716400A063A8 /* CalenderHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +448,8 @@
 				DEVELOPMENT_TEAM = CRPB5AHSY2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cal/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Please allow access";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -468,6 +478,8 @@
 				DEVELOPMENT_TEAM = CRPB5AHSY2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cal/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Please allow access";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
